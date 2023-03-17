@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - with proper grammar
  *
  * Return: Always 0 (Success)
  */
