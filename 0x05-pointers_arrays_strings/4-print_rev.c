@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_rev - prints a string in reverse, followed by a new line
@@ -6,9 +6,7 @@ include "main.h"
  */
 void print_rev(char *s)
 {
-	int i;
-	int j;
-	int len;
+	int i, j, len;
 
 	i = 0;
 
