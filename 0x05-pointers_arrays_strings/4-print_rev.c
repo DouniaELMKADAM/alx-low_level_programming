@@ -6,7 +6,9 @@ include "main.h"
  */
 void print_rev(char *s)
 {
-	int i, j, len;
+	int i;
+	int j;
+	int len;
 
 	i = 0;
 
