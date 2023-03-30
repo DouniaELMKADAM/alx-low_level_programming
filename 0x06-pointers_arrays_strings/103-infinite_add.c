@@ -1,13 +1,10 @@
 #include "main.h"
-
 /**
  * infinite_add - adds two integers stored as strings
- *
  * @n1: first integer string to add
  * @n2: second integer string to add
  * @r: array to store resulting string in
  * @size_r: size of array r
- *
  * Return: the summed string in r. If r is too small for the result,
  * return 0;
  */
