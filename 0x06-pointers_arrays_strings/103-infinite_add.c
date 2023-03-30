@@ -77,7 +77,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		r[index--] = 0;
 	}
 	index2 = 0;
-	
 	while (index2 <= index)
 	{
 		carry = r[index];
@@ -86,6 +85,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		index--;
 		index2++;
 	}
-	
 	return (r);
 }
