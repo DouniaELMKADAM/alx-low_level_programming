@@ -1,5 +1,4 @@
-include "main.h"
-
+#include "main.h"
 /**
  * reverse_array - prints reverse array.
  * @a: array to be compared.
