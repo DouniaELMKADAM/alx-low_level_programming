@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * infinite_add - adds two integers stored as strings
+ * infinite_add - adds two integers stored as strings...
  * @n1: first integer string to add
  * @n2: second integer string to add
  * @r: array to store resulting string in
