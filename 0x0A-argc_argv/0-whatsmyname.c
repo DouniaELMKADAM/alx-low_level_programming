@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ ******
  * main - this program prints its name
  * @argc: integer
  * @argv: array of pointers to char
