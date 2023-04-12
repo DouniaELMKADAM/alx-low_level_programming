@@ -12,18 +12,18 @@ int len = 0, count = 0;
 char **f, *col;
 if (!str || !*str)
 {
-return (NULL);
+	return (NULL);
 }
 while (*(str + i))
 {
-		if (*(str + i) != ' ')
+	if (*(str + i) != ' ')
+	{
+		if (*(str + i + 1) == ' ' || *(str + i + 1) == 0)
 		{
-			if (*(str + i + 1) == ' ' || *(str + i + 1) == 0)
-			{
 			count += 1;
-			}
 		}
-		i++;
+	}
+	i++;
 }
 if (count == 0)
 {
