@@ -27,6 +27,7 @@ int word_len(char *str)
  * @str: the string to be searched.
  * Return: the numeber of words contained wothin str.
 */
+
 int count_words(char *str)
 {
 	int index = 0, words = 0, len = 0;
@@ -41,14 +42,13 @@ int count_words(char *str)
 			index += word_len(str + index);
 		}
 	}
-
 	return (words);
 }
 
 /**
  * strtow - Splits a string into words.
  * @str: the string to be splite.
- * Return: If NULL or the function fails - Null.
+ * Return: If str = NULL, str = "", or the function fails - Null.
  *	   Otherwise - a pointer to an array of strings (words).
  */
 char **strtow(char *str)
@@ -61,11 +61,9 @@ char **strtow(char *str)
 	words = count_words(str);
 	if (words == 0)
 		return (NULL);
-
 	strings = malloc(sizeof(char *) * (words + 1));
 	if (strings == NULL)
 		return (NULL);
-
 	for (w = 0; w < words; w++)
 	{
 		while (str[index] == ' ')
@@ -84,6 +82,5 @@ char **strtow(char *str)
 		strings[w][l] = '\0';
 	}
 	strings[w] = NULL;
-
 	return (strings);
 }
