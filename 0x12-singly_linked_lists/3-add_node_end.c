@@ -7,7 +7,6 @@
  * @str: The string to be added to the list_t list.
  *
  * Return: new head pointer
- *  
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
